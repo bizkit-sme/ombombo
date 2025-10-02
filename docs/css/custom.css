@@ -1,0 +1,76 @@
+.fh5co-cover .overlay{
+    background-color: rgba(107, 139, 79, 0.80);
+}
+
+.fh5co-nav .top-menu{
+    padding: 0 !important;
+}
+
+.fh5co-nav #fh5co-logo {
+    font-size: 14px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px;
+    padding-top: 45px;
+    min-height: 180px;
+    min-width: 130px;
+    text-align: center;
+}
+
+.fh5co-nav #fh5co-logo a span{
+    color: #2e3633;
+}
+
+#rightNav{
+    padding-top: 45px;
+}
+
+.fh5co-nav ul li.btn-cta a span, #fh5co-header .display-tc .btn, #fh5co-counter .display-tc .btn, .fh5co-cover .display-tc .btn, #fh5co-started .btn, footer{
+    background: #2e3633 !important;
+}
+
+.fh5co-contact-info ul li::before {
+    color: #6b8b4f;
+}
+
+.display-tc h1{
+    font-size: 25px !important;
+}
+
+#INTRO{
+    padding-left: 1em;
+}
+
+#ICONS{
+    margin-top: 10vh;
+    background: rgba(46, 54, 51, 0.67);
+    padding: 1em;
+    border-radius: 15px;
+    width: 90%;
+    float: right;
+}
+
+.iconsContainer{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.iconsContainer img{
+    width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .iconsContainer{
+	color: #ffffff;
+	text-align: center;
+	font-size: 10px;
+    }
+
+    .iconsContainer img{
+	width: 30px;
+    }
+
+
+}

@@ -30,12 +30,20 @@
     background: #2e3633 !important;
 }
 
-.fh5co-contact-info ul li::before {
-    color: #6b8b4f;
+a {
+    color: teal;
 }
 
-#fh5co-started{
+.fh5co-contact-info ul li::before, .feature-center h3, .fhco-cta-block h2 {
+    color: #6b8b4f !important;
+}
+
+#fh5co-started, .btn-primary{
     background: #6b8b4f;
+}
+
+.fhco-cta-block, .btn-primary{
+    border-color: #6b8b4f;
 }
 
 .display-tc h1{
